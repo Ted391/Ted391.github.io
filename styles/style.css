@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Quicksand';
+    margin: 0px;  
+    background-color: #1e1e1d;
+    color: #1e1e1d;
+    display: block;
+}
+
+.header {
+    background-color: #e6e605e3;
+    overflow: hidden;
+}
+
+.nickname {
+    padding: 15px 10px;
+    text-align: center;
+    float: left;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 10px;
+}
+
+.buttons {
+    float: right;
+    text-align: center;
+}
+
+.buttons a {
+    padding: 10px;
+    float: right;
+    border-style: hidden;
+    border-width: 15px;
+    text-decoration: none;
+}
+
+.buttons a:hover {
+    background-color: brown;
+    color: #ffffff;
+}
+
+.site-content h1 {
+    color: yellow;
+    font-size: 100px;
+    margin-top: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
